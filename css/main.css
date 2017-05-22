@@ -1,3 +1,16 @@
+h1 {
+  font-size: 58px;
+
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
 .btn-primary {
 
   color: #fff;
@@ -29,7 +42,7 @@
 
   background: url("../images/sfondo.jpg");
   background-size: cover;
-  min-height: 850px;
+  min-height: 950px;
   padding: 20px;
 
 }
@@ -71,6 +84,13 @@
 .row pisano-form {
 
   padding: 0px 10% 100px 10%;
+}
+
+.welcome {
+  background: rgba(0, 0, 0, 0.2);
+  color: rgba(256, 256, 256, 0.85);
+  padding: 150px;
+  text-align: center;
 }
 
 @media (max-width:768px) {
