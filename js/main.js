@@ -22,6 +22,7 @@ $(function () {
             window.location.hash = hash;
             
         });
+        
     });
 
     $('form').bootstrapValidator({
@@ -45,6 +46,7 @@ $(function () {
                     }
                 }
             },
+            
             email: {
                 
                 validators: {
@@ -60,6 +62,7 @@ $(function () {
                     }
                 }
             },
+            
             telefono: {
                 
                 validators: {
@@ -69,6 +72,7 @@ $(function () {
                         message: 'Per favore inserisci il tuo numero di telefono'
                         
                     },
+                    
                     phone: {
                         
                         country: 'US',
